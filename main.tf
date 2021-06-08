@@ -1,9 +1,3 @@
-terraform {
-  backend "gcs" {
-    bucket      = "tf_statbucket_learning0526"
-}
-  required_version = ">= 0.12"
-}
 
 provider "google" {
 }
