@@ -1,5 +1,8 @@
 terraform {
-  backend "gcs" {}
+  backend "gcs" {
+    bucket      = "tf_statbucket_learning0526"
+    prefix      = "root\network-tfsate"
+  }
   required_version = ">= 0.12"
 }
 
