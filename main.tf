@@ -1,9 +1,8 @@
-terraform {
-   backend "gcs" {
-     bucket  = "man-store-bkt"
-     prefix  = "terraform/state"
-  }
-} 
+terraform {
+  backend "gcs" {
+    bucket  = "man-store-bkt"
+  }
+}
 
 provider "google" {
 }
