@@ -1,7 +1,7 @@
 terraform {
-  backend "gcs" {
-    bucket  = "man-store-bkt"
-    prefix  = "terraform/state"
+   backend "gcs" {
+     bucket  = "man-store-bkt"
+     prefix  = "terraform/state"
   }
 } 
 
