@@ -1,10 +1,3 @@
-terraform {
-  backend "gcs" {
-    bucket      = "tf_statbucket_learning0608"
-    prefix      = "root\network-tfsate"
-    credentials = "learning-project-314911-161135f1dae6.json"
-  }
-}
 
 provider "google" {
 }
