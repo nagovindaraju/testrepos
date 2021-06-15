@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket      = "man-store-bkt"
+    bucket      = "tf_statbucket_learn1998"
     prefix      = "root\network-tfsate"
     credentials = "learning-project-314911-161135f1dae6.json"
   }
