@@ -1,2 +1,2 @@
-bucket_name = "tf_statbucket_learning0615"
+bucket_name = "tf-statbucket-learning-backend"
 storage_class = "REGIONAL"
