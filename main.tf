@@ -2,7 +2,7 @@ terraform {
   backend "gcs" {
     bucket      = "tf-statbucket-learning-backend"
     prefix      = "terraform/state"
-    credentials = "learning-project-314911-161135f1dae6.json"
+    credentials = "GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}"
   }
 }
 
